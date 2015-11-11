@@ -44,7 +44,7 @@
 	}
 	```
 	
-2. Add `gulpfile.js` to the project with the following content:
+3. Add `gulpfile.js` to the project with the following content:
 
 	```js
 	var gulp = require('gulp'),
@@ -70,7 +70,7 @@
 	});
 	```
 	
-3. Add a `jsconfig.json` file to the `es6` folder.
+4. Add a `jsconfig.json` file to the `es6` folder.
 	- This will remove compile errors for the ES6 files.
 
 	```json
@@ -81,7 +81,7 @@
 	}
 	```
 	
-4. Configure the Task Runner.
+5. Configure the Task Runner.
 	- This will run the `babel` task when pressing Cmd+Shift+B
 
 	```json
