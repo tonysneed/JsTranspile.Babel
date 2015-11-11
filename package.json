@@ -1,0 +1,20 @@
+{
+  "name": "jstranspile-babel",
+  "version": "1.0.0",
+  "description": "Transpiling ES6 to ES5 with Babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Sneed",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.1.4",
+    "babel-preset-es2015": "^6.1.4",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
